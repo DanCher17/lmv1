@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/arrow-left.svg</file>
+        <file>img/counter.png</file>
+        <file>img/sunny.png</file>
+        <file>img/wifi_qr.png</file>
+    </qresource>
+</RCC>
