@@ -4,5 +4,7 @@
         <file>img/counter.png</file>
         <file>img/sunny.png</file>
         <file>img/wifi_qr.png</file>
+        <file>img/electricity.png</file>
+        <file>img/gas.png</file>
     </qresource>
 </RCC>

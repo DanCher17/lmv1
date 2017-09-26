@@ -60,12 +60,132 @@ margin: 0;</string>
         <property name="spacing">
          <number>16</number>
         </property>
+        <item row="2" column="1" colspan="2">
+         <widget class="QWidget" name="widget_4" native="true">
+          <property name="styleSheet">
+           <string notr="true">QWidget {
+	background: #424242;
+	color: #f5f5f5;
+	border-radius: 4px;
+}</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <property name="leftMargin">
+            <number>8</number>
+           </property>
+           <property name="topMargin">
+            <number>8</number>
+           </property>
+           <property name="rightMargin">
+            <number>8</number>
+           </property>
+           <property name="bottomMargin">
+            <number>8</number>
+           </property>
+           <property name="spacing">
+            <number>8</number>
+           </property>
+           <item row="0" column="1" rowspan="2">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Лічильники</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="styleSheet">
+              <string notr="true">font-size: 24px;</string>
+             </property>
+             <property name="text">
+              <string>218 V</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>102 W</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QWidget" name="widget" native="true">
+          <property name="styleSheet">
+           <string notr="true">QWidget {
+	background: #424242;
+	color: #f5f5f5;
+	border-radius: 4px;
+}</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>8</number>
+           </property>
+           <property name="leftMargin">
+            <number>8</number>
+           </property>
+           <property name="topMargin">
+            <number>8</number>
+           </property>
+           <property name="rightMargin">
+            <number>8</number>
+           </property>
+           <property name="bottomMargin">
+            <number>8</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">font-size: 24px;</string>
+             </property>
+             <property name="text">
+              <string>13:57</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Вс, 24 Вересня</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
         <item row="4" column="0">
          <widget class="QWidget" name="widget_6" native="true">
           <property name="styleSheet">
            <string notr="true">QWidget {
 	background: #424242;
 	color: #f5f5f5;
+	border-radius: 4px;
 }</string>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout">
@@ -76,6 +196,9 @@ margin: 0;</string>
              </property>
              <property name="text">
               <string>QR code for Wifi</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -88,101 +211,50 @@ margin: 0;</string>
            <string notr="true">QWidget {
 	background: #424242;
 	color: #f5f5f5;
+	border-radius: 4px;
 }</string>
           </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QWidget" name="widget" native="true">
-          <property name="styleSheet">
-           <string notr="true">QWidget {
-	background: #424242;
-	color: #f5f5f5;
-}</string>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_2">
-           <item>
-            <widget class="QLabel" name="label_3">
-             <property name="styleSheet">
-              <string notr="true">font-size: 24px;</string>
-             </property>
-             <property name="text">
-              <string>13:57</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="label_4">
-             <property name="text">
-              <string>Вс, 24 Августа</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QWidget" name="widget_2" native="true">
-          <property name="styleSheet">
-           <string notr="true">QWidget {
-	background: #424242;
-	color: #f5f5f5;
-}</string>
-          </property>
-          <layout class="QGridLayout" name="gridLayout_3">
-           <item row="0" column="1">
-            <widget class="QLabel" name="label_5">
-             <property name="styleSheet">
-              <string notr="true">font-size: 24px;</string>
-             </property>
-             <property name="text">
-              <string>+18 C</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0" colspan="2">
-            <widget class="QLabel" name="label_7">
-             <property name="text">
-              <string>Влажность 78%</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
+          <layout class="QGridLayout" name="gridLayout_5">
            <item row="0" column="0">
-            <widget class="QLabel" name="label_6">
+            <widget class="QLabel" name="label_13">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
              <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap resource="images.qrc">:/img/sunny.png</pixmap>
-             </property>
-             <property name="scaledContents">
-              <bool>false</bool>
+              <string>CCTV</string>
              </property>
              <property name="alignment">
-              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
           </layout>
          </widget>
         </item>
-        <item row="2" column="2">
-         <widget class="QWidget" name="widget_4" native="true">
+        <item row="4" column="2">
+         <widget class="QWidget" name="widget_9" native="true">
           <property name="styleSheet">
            <string notr="true">QWidget {
 	background: #424242;
 	color: #f5f5f5;
+	border-radius: 4px;
 }</string>
           </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Кімнати</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item row="0" column="0" colspan="3">
@@ -278,13 +350,17 @@ line-height: 1;
            <string notr="true">QWidget {
 	background: #424242;
 	color: #f5f5f5;
+	border-radius: 4px;
 }</string>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_3">
            <item>
             <widget class="QLabel" name="label_8">
              <property name="text">
-              <string>Новости</string>
+              <string>Новини</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -292,28 +368,95 @@ line-height: 1;
          </widget>
         </item>
         <item row="3" column="2">
-         <widget class="QWidget" name="widget_8" native="true">
+         <widget class="QWidget" name="widget_2" native="true">
           <property name="styleSheet">
            <string notr="true">QWidget {
 	background: #424242;
 	color: #f5f5f5;
+	border-radius: 4px;
 }</string>
           </property>
-         </widget>
-        </item>
-        <item row="4" column="2">
-         <widget class="QWidget" name="widget_9" native="true">
-          <property name="styleSheet">
-           <string notr="true">QWidget {
-	background: #424242;
-	color: #f5f5f5;
-}</string>
-          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <property name="leftMargin">
+            <number>8</number>
+           </property>
+           <property name="topMargin">
+            <number>8</number>
+           </property>
+           <property name="rightMargin">
+            <number>8</number>
+           </property>
+           <property name="bottomMargin">
+            <number>8</number>
+           </property>
+           <property name="spacing">
+            <number>8</number>
+           </property>
+           <item row="1" column="0" colspan="2">
+            <widget class="QWidget" name="widget_8" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <property name="spacing">
+               <number>8</number>
+              </property>
+              <property name="leftMargin">
+               <number>8</number>
+              </property>
+              <property name="topMargin">
+               <number>8</number>
+              </property>
+              <property name="rightMargin">
+               <number>8</number>
+              </property>
+              <property name="bottomMargin">
+               <number>8</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap resource="images.qrc">:/img/sunny.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>false</bool>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="styleSheet">
+                 <string notr="true">font-size: 24px;</string>
+                </property>
+                <property name="text">
+                 <string>+18 C</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="2" column="0" colspan="2">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Вологість 78%</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="page_2"/>
      </widget>
     </item>
    </layout>
