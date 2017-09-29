@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->stackedWidget->insertWidget(COUNTERS_PAGE, &this->counters);
+    ui->stackedWidget_2->insertWidget(COUNTERS_PAGE, &this->counters);
 }
 
 MainWindow::~MainWindow()
@@ -16,5 +16,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(COUNTERS_PAGE);
+    this->switchToPage(COUNTERS_PAGE);
+}
+
+void MainWindow::switchToPage(int page) {
+    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget_2->setCurrentIndex(page);
 }

@@ -14,7 +14,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: #F5F5F5;
+   <string notr="true">background: green;
 font: 16px &quot;Segoe UI&quot;;</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">

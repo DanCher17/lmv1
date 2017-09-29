@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <counters.h>
+#include <QStackedWidget>
 
 const int COUNTERS_PAGE = 1;
 
@@ -24,6 +25,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     Counters counters;
+    void switchToPage(int page);
 };
 
 #endif // MAINWINDOW_H
