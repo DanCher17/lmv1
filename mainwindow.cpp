@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->stackedWidget_2->insertWidget(COUNTERS_PAGE, &this->counters);
+    ui->stackedWidget_2->insertWidget(ROOMS_PAGE, &this->rooms);
 }
 
 MainWindow::~MainWindow()
@@ -19,7 +20,19 @@ void MainWindow::on_pushButton_clicked()
     this->switchToPage(COUNTERS_PAGE);
 }
 
-void MainWindow::switchToPage(int page) {
+void MainWindow::switchToPage(int page)
+{
     ui->stackedWidget->setCurrentIndex(1);
     ui->stackedWidget_2->setCurrentIndex(page);
+    ui->label_pageName->setText(PAGE_NAME[page]);
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    this->switchToPage(ROOMS_PAGE);
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
 }

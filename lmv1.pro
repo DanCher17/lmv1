@@ -14,13 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    counters.cpp
+    counters.cpp \
+    rooms.cpp
 
 HEADERS  += mainwindow.h \
-    counters.h
+    counters.h \
+    rooms.h
 
 FORMS    += mainwindow.ui \
-    counters.ui
+    counters.ui \
+    rooms.ui
 
 RESOURCES += \
     images.qrc

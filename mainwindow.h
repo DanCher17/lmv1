@@ -3,9 +3,16 @@
 
 #include <QMainWindow>
 #include <counters.h>
+#include <rooms.h>
 #include <QStackedWidget>
 
-const int COUNTERS_PAGE = 1;
+const int COUNTERS_PAGE = 0;
+const int ROOMS_PAGE = 1;
+
+const QString PAGE_NAME[] = {
+    "Покази лічильників",
+    "Управління приладами"
+};
 
 namespace Ui {
 class MainWindow;
@@ -22,9 +29,14 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
 private:
     Ui::MainWindow *ui;
     Counters counters;
+    Rooms rooms;
     void switchToPage(int page);
 };
 

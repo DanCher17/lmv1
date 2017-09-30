@@ -14,21 +14,20 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: green;
-font: 16px &quot;Segoe UI&quot;;</string>
+   <string notr="true">font: 16px &quot;Segoe UI&quot;;</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="leftMargin">
-    <number>16</number>
+    <number>32</number>
    </property>
    <property name="topMargin">
-    <number>16</number>
+    <number>32</number>
    </property>
    <property name="rightMargin">
-    <number>16</number>
+    <number>32</number>
    </property>
    <property name="bottomMargin">
-    <number>16</number>
+    <number>32</number>
    </property>
    <property name="spacing">
     <number>16</number>
