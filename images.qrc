@@ -6,5 +6,7 @@
         <file>img/wifi_qr.png</file>
         <file>img/electricity.png</file>
         <file>img/gas.png</file>
+        <file>img/cog.svg</file>
+        <file>img/water.png</file>
     </qresource>
 </RCC>

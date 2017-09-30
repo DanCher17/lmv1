@@ -12,3 +12,18 @@ Rooms::~Rooms()
 {
     delete ui;
 }
+
+void Rooms::on_pushButton_6_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+void Rooms::on_pushButton_7_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+void Rooms::on_pushButton_8_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
