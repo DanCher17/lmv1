@@ -27,3 +27,23 @@ void Rooms::on_pushButton_8_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }
+
+void Rooms::on_pushButton_4_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+void Rooms::on_pushButton_10_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+void Rooms::on_pushButton_14_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+void Rooms::on_pushButton_16_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}

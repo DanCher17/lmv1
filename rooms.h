@@ -22,6 +22,14 @@ private slots:
 
     void on_pushButton_8_clicked();
 
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_10_clicked();
+
+    void on_pushButton_14_clicked();
+
+    void on_pushButton_16_clicked();
+
 private:
     Ui::Rooms *ui;
 };
