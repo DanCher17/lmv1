@@ -10,8 +10,8 @@ const int COUNTERS_PAGE = 0;
 const int ROOMS_PAGE = 1;
 
 const QString PAGE_NAME[] = {
-    "Покази лічильників",
-    "Управління приладами"
+    "Лічильники",
+    "Кімнати"
 };
 
 namespace Ui {

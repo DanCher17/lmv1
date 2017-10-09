@@ -3,10 +3,10 @@
         <file>img/arrow-left.svg</file>
         <file>img/counter.png</file>
         <file>img/sunny.png</file>
-        <file>img/wifi_qr.png</file>
         <file>img/electricity.png</file>
         <file>img/gas.png</file>
         <file>img/cog.svg</file>
         <file>img/water.png</file>
+        <file>img/wifi.png</file>
     </qresource>
 </RCC>

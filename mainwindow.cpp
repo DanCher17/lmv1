@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     ui->stackedWidget_2->insertWidget(COUNTERS_PAGE, &this->counters);
     ui->stackedWidget_2->insertWidget(ROOMS_PAGE, &this->rooms);
+    QPixmap pixamp(":/img/wifi.png");
+    ui->label_wifi->setPixmap(pixamp.scaled(ui->widget_6->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
 }
 
 MainWindow::~MainWindow()
