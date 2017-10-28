@@ -2,6 +2,9 @@
 #define COUNTERS_H
 
 #include <QWidget>
+#include <QTimer>
+#include <QTime>
+#include <QLabel>
 
 namespace Ui {
 class Counters;
@@ -17,6 +20,17 @@ public:
 
 private:
     Ui::Counters *ui;
+    QTimer *tmr;
+    QTimer *tmr1;
+    QTimer *tmr2;
+    QTimer *tmr3;
+    QTimer *tmr4;
+private slots:
+    void updateTime();
+    void updateColdWater();
+    void updateWarmWater();
+    void updateGas();
+    void updateElectro();
 };
 
 #endif // COUNTERS_H
