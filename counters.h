@@ -20,6 +20,10 @@ public:
 
 private:
     Ui::Counters *ui;
+    float coldWater = 5745.4;
+    float hotWater = 6723.1;
+    float gas = 4917.0;
+    float electro = 7762.8;
     QTimer *tmr;
     QTimer *tmr1;
     QTimer *tmr2;

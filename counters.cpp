@@ -62,7 +62,12 @@ void Counters::updateElectro() {
     if (i == 3) {
         tmr1->stop();
     }
-    else ui->counter_1->setText(QString::number(ui->counter_1->text().toInt()+1));
+    else {
+        electro += 0.1;
+        double fractpart, intpart;
+        fractpart = modf(electro , &intpart);
+        ui->label_electro->setText(QString("<html><head/><body><p><span style=\" font-size:12pt;\">000%1.</span><span style=\" font-size:12pt; color:#EF5350;\"> %2</span></p></body></html>").arg(QString::number(intpart), QString::number(int(fractpart * 10))));
+    }
     i++;
 }
 
@@ -70,7 +75,12 @@ void Counters::updateGas() {
     if (i == 3) {
         tmr2->stop();
     }
-    else ui->counter_2->setText(QString::number(ui->counter_2->text().toInt()+1));
+    else {
+        gas += 0.1;
+        double fractpart, intpart;
+        fractpart = modf(gas , &intpart);
+        ui->label_gas->setText(QString("<html><head/><body><p><span style=\" font-size:12pt;\">000%1.</span><span style=\" font-size:12pt; color:#EF5350;\"> %2</span></p></body></html>").arg(QString::number(intpart), QString::number(int(fractpart * 10))));
+    }
     i++;
 }
 
@@ -78,7 +88,12 @@ void Counters::updateColdWater() {
     if (i == 3) {
         tmr3->stop();
     }
-    else ui->counter_3->setText(QString::number(ui->counter_3->text().toInt()+1));
+    else {
+        coldWater += 0.1;
+        double fractpart, intpart;
+        fractpart = modf(coldWater , &intpart);
+        ui->label_coldw->setText(QString("<html><head/><body><p><span style=\" font-size:12pt;\">000%1.</span><span style=\" font-size:12pt; color:#EF5350;\"> %2</span></p></body></html>").arg(QString::number(intpart), QString::number(int(fractpart * 10))));
+    }
     i++;
 }
 
@@ -86,7 +101,12 @@ void Counters::updateWarmWater() {
     if (i == 3) {
         tmr4->stop();
     }
-    else ui->counter_4->setText(QString::number(ui->counter_4->text().toInt()+1));
+    else {
+        hotWater += 0.1;
+        double fractpart, intpart;
+        fractpart = modf(hotWater , &intpart);
+        ui->label_hotw->setText(QString("<html><head/><body><p><span style=\" font-size:12pt;\">000%1.</span><span style=\" font-size:12pt; color:#EF5350;\"> %2</span></p></body></html>").arg(QString::number(intpart), QString::number(int(fractpart * 10))));
+    }
     i++;
 }
 
