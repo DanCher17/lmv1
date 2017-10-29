@@ -24,5 +24,9 @@
         <file>img/window-closed.png</file>
         <file>img/window-opened.png</file>
         <file>img/on.png</file>
+        <file>img/humidity.png</file>
+        <file>img/temperature.png</file>
+        <file>img/unsafe.png</file>
+        <file>img/fire.png</file>
     </qresource>
 </RCC>
