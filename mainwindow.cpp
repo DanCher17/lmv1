@@ -10,6 +10,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->stackedWidget_2->insertWidget(ROOMS_PAGE, &this->rooms);
     QPixmap pixamp(":/img/wifi.png");
     ui->label_wifi->setPixmap(pixamp.scaled(ui->widget_6->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
+
+    tmr = new QTimer(this);
+    tmr->setInterval(1000);
+    connect(tmr, SIGNAL(timeout()), this, SLOT(updateTime()));
+    tmr->start();
 }
 
 MainWindow::~MainWindow()
@@ -37,4 +42,9 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_pushButton_3_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
+}
+
+void MainWindow::updateTime() {
+    QTime time = QTime::currentTime();
+    ui->label_time->setText(QString("%1:%2").arg(QString::number(time.hour()), QString::number(time.minute())));
 }

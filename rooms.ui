@@ -251,7 +251,7 @@ text-align: left;
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-69</y>
+            <y>0</y>
             <width>549</width>
             <height>497</height>
            </rect>
@@ -456,6 +456,35 @@ background: #424242;
                 </property>
                </widget>
               </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton_120">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">padding: 0px 4px;</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="images.qrc">
+                  <normaloff>:/img/fire.png</normaloff>:/img/fire.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
               <item row="1" column="4">
                <widget class="QPushButton" name="pushButton_119">
                 <property name="sizePolicy">
@@ -485,10 +514,10 @@ background: #424242;
                 </property>
                </widget>
               </item>
-              <item row="1" column="2">
-               <widget class="QPushButton" name="pushButton_120">
+              <item row="0" column="4">
+               <widget class="QPushButton" name="pushButton_121">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -504,7 +533,7 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/fire.png</normaloff>:/img/fire.png</iconset>
+                  <normaloff>:/img/cog.svg</normaloff>:/img/cog.svg</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1654,7 +1683,7 @@ background: #424242;
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-66</y>
+            <y>0</y>
             <width>549</width>
             <height>494</height>
            </rect>

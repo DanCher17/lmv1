@@ -33,10 +33,12 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void updateTime();
 private:
     Ui::MainWindow *ui;
     Counters counters;
     Rooms rooms;
+    QTimer *tmr;
     void switchToPage(int page);
 };
 

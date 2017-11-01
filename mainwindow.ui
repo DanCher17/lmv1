@@ -125,7 +125,7 @@ margin: 0;</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_4">
+              <widget class="QLabel" name="label_time">
                <property name="styleSheet">
                 <string notr="true">font-size: 24px;</string>
                </property>
