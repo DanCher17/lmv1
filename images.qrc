@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/arrow-left.svg</file>
+        <file>img/counter.png</file>
+        <file>img/sunny.png</file>
+        <file>img/electricity.png</file>
+        <file>img/gas.png</file>
+        <file>img/cog.svg</file>
+        <file>img/water.png</file>
+        <file>img/wifi.png</file>
+        <file>img/light_off.png</file>
+        <file>img/light_on.png</file>
+        <file>img/settingsicon.png</file>
+        <file>img/socket_off.png</file>
+        <file>img/socket_on.png</file>
+        <file>img/brightness_donut.png</file>
+        <file>img/color_donut.png</file>
+        <file>img/timeline.png</file>
+        <file>img/fan.png</file>
+        <file>img/warm_floor.png</file>
+        <file>img/warm-battery.png</file>
+        <file>img/humidifier.png</file>
+        <file>img/warning.png</file>
+        <file>img/window-closed.png</file>
+        <file>img/window-opened.png</file>
+        <file>img/on.png</file>
+        <file>img/humidity.png</file>
+        <file>img/temperature.png</file>
+        <file>img/unsafe.png</file>
+        <file>img/fire.png</file>
+        <file>img/coffee.jpg</file>
+        <file>img/condition.jpg</file>
+        <file>img/floor.jpg</file>
+        <file>img/jacuzi.jpg</file>
+        <file>img/light.jpg</file>
+        <file>img/rozetka.jpg</file>
+        <file>img/air.jpg</file>
+		<file>img/fire.png</file>
+        <file>img/2x2-grid.png</file>
+        <file>img/3x3-grid.png</file>
+        <file>img/videocam.png</file>
+    </qresource>
+</RCC>
