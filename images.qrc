@@ -28,5 +28,12 @@
         <file>img/temperature.png</file>
         <file>img/unsafe.png</file>
         <file>img/fire.png</file>
+        <file>img/coffee.jpg</file>
+        <file>img/condition.jpg</file>
+        <file>img/floor.jpg</file>
+        <file>img/jacuzi.jpg</file>
+        <file>img/light.jpg</file>
+        <file>img/rozetka.jpg</file>
+        <file>img/air.jpg</file>
     </qresource>
 </RCC>
