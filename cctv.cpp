@@ -28,11 +28,12 @@ void CCTV::on_pushButton_2_clicked()
     this->ui->stackedWidget->setCurrentIndex(1);
 }
 
-void CCTV::on_widget_12_destroyed()
+void CCTV::on_pushButton_14_clicked()
 {
+    this->ui->stackedWidget->setCurrentIndex(2);
 }
 
-void CCTV::on_pushButton_14_clicked()
+void CCTV::on_pushButton_15_clicked()
 {
     this->ui->stackedWidget->setCurrentIndex(2);
 }

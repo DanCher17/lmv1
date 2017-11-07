@@ -312,3 +312,8 @@ void Rooms::on_pushButton_48_clicked()
 }
 
 
+
+void Rooms::on_pushButton_12_clicked()
+{
+
+}

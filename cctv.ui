@@ -235,7 +235,14 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -316,7 +323,14 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -397,7 +411,14 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -478,7 +499,11 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/videocam.png</normaloff>:/img/videocam.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -559,7 +584,14 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -640,7 +672,11 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/videocam.png</normaloff>:/img/videocam.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -721,7 +757,11 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/videocam.png</normaloff>:/img/videocam.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -802,7 +842,11 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/videocam.png</normaloff>:/img/videocam.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -883,7 +927,11 @@ color: #f5f5f5;</string>
                   </property>
                   <property name="icon">
                    <iconset resource="images.qrc">
-                    <normaloff>:/img/videocam.png</normaloff>:/img/videocam.png</iconset>
+                    <normaloff>:/img/videocam.png</normaloff>
+                    <normalon>:/img/on.png</normalon>:/img/videocam.png</iconset>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
                   </property>
                  </widget>
                 </item>
@@ -957,12 +1005,21 @@ color: #f5f5f5;</string>
               <number>8</number>
              </property>
              <item>
-              <widget class="QWidget" name="widget_32" native="true">
+              <widget class="QPushButton" name="pushButton_15">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="cursor">
                 <cursorShape>PointingHandCursor</cursorShape>
                </property>
                <property name="styleSheet">
                 <string notr="true">background: #ccc;</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
               </widget>
              </item>

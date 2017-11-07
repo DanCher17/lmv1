@@ -90,6 +90,8 @@ private slots:
 
     void on_pushButton_47_clicked();
 
+    void on_pushButton_12_clicked();
+
 private:
     Ui::Rooms *ui;
     void make_trigger_active(QWidget* btn);

@@ -595,13 +595,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                  <normaloff>:/img/light_off.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/light_off.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -715,13 +722,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                  <normaloff>:/img/light_off.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/light_off.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -835,13 +849,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/socket_off.png</normaloff>:/img/socket_off.png</iconset>
+                  <normaloff>:/img/socket_off.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/socket_off.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
                 </property>
                </widget>
               </item>
@@ -955,13 +976,17 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/window-closed.png</normaloff>:/img/window-closed.png</iconset>
+                  <normaloff>:/img/window-closed.png</normaloff>
+                  <normalon>:/img/window-opened.png</normalon>:/img/window-closed.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -1075,13 +1100,17 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/window-opened.png</normaloff>:/img/window-opened.png</iconset>
+                  <normaloff>:/img/window-closed.png</normaloff>
+                  <normalon>:/img/window-opened.png</normalon>:/img/window-closed.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -1195,13 +1224,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/fan.png</normaloff>:/img/fan.png</iconset>
+                  <normaloff>:/img/fan.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/fan.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
                 </property>
                </widget>
               </item>
@@ -1318,13 +1354,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/warm_floor.png</normaloff>:/img/warm_floor.png</iconset>
+                  <normaloff>:/img/warm_floor.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/warm_floor.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
                 </property>
                </widget>
               </item>
@@ -1441,13 +1484,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/warm-battery.png</normaloff>:/img/warm-battery.png</iconset>
+                  <normaloff>:/img/warm-battery.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/warm-battery.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
                 </property>
                </widget>
               </item>
@@ -1561,13 +1611,20 @@ background: #424242;
                 </property>
                 <property name="icon">
                  <iconset resource="images.qrc">
-                  <normaloff>:/img/on.png</normaloff>:/img/on.png</iconset>
+                  <normaloff>:/img/humidifier.png</normaloff>
+                  <normalon>:/img/on.png</normalon>:/img/humidifier.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
                   <width>20</width>
                   <height>20</height>
                  </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -1684,7 +1741,7 @@ background: #424242;
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>549</width>
+            <width>528</width>
             <height>494</height>
            </rect>
           </property>
@@ -1913,8 +1970,8 @@ padding: 4px 8px;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>338</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -2152,8 +2209,8 @@ padding: 0;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>276</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -2333,8 +2390,8 @@ padding: 4px 8px;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>549</width>
-            <height>435</height>
+            <width>528</width>
+            <height>441</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -2688,8 +2745,8 @@ padding: 0;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>338</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_15">
@@ -2939,8 +2996,8 @@ padding: 0;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>338</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_17">
@@ -3187,8 +3244,8 @@ padding: 0;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>389</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_19">
@@ -3500,8 +3557,8 @@ padding: 0;</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>566</width>
-            <height>428</height>
+            <width>528</width>
+            <height>338</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_21">
