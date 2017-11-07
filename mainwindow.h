@@ -5,13 +5,16 @@
 #include <counters.h>
 #include <rooms.h>
 #include <QStackedWidget>
+#include <cctv.h>
 
 const int COUNTERS_PAGE = 0;
 const int ROOMS_PAGE = 1;
+const int CCTV_PAGE = 2;
 
 const QString PAGE_NAME[] = {
     "Лічильники",
-    "Кімнати"
+    "Кімнати",
+    "Відеоспостереження"
 };
 
 namespace Ui {
@@ -34,10 +37,13 @@ private slots:
     void on_pushButton_3_clicked();
 
     void updateTime();
+    void on_pushButton_4_clicked();
+
 private:
     Ui::MainWindow *ui;
     Counters counters;
     Rooms rooms;
+    CCTV cctv;
     QTimer *tmr;
     void switchToPage(int page);
 };

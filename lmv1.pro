@@ -15,15 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     counters.cpp \
-    rooms.cpp
+    rooms.cpp \
+    cctv.cpp
 
 HEADERS  += mainwindow.h \
     counters.h \
-    rooms.h
+    rooms.h \
+    cctv.h
 
 FORMS    += mainwindow.ui \
     counters.ui \
-    rooms.ui
+    rooms.ui \
+    cctv.ui
 
 RESOURCES += \
     images.qrc

@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     ui->stackedWidget_2->insertWidget(COUNTERS_PAGE, &this->counters);
     ui->stackedWidget_2->insertWidget(ROOMS_PAGE, &this->rooms);
+    ui->stackedWidget_2->insertWidget(CCTV_PAGE, &this->cctv);
     QPixmap pixamp(":/img/wifi.png");
     ui->label_wifi->setPixmap(pixamp.scaled(ui->widget_6->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
 
@@ -47,4 +48,9 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::updateTime() {
     QTime time = QTime::currentTime();
     ui->label_time->setText(QString("%1:%2").arg(QString::number(time.hour()), QString::number(time.minute())));
+}
+
+void MainWindow::on_pushButton_4_clicked()
+{
+    this->switchToPage(CCTV_PAGE);
 }
